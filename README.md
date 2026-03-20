@@ -39,7 +39,7 @@ Final state returned - risks, action, audit_id
 ![FastAPI Docs](assets/FastAPI.png)
 
 ### Slack - Risk Alerts
-![Slack Notifications](assets/Slack notification.png)
+![Slack Notifications](assets/Slack_notification.png)
 
 ---
 
@@ -214,6 +214,9 @@ After running `run_demo.py`, metrics are available at `GET /metrics`:
 ```
 
 Metrics compare AI predictions against `expected_risks` ground truth labels in `synthetic_data.json`.
+
+![Metrics](assets/Demo_run_metrics.png)
+
 
 ---
 
