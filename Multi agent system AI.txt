@@ -1,0 +1,12 @@
+Multi agent system AI (some issues while coding with AI)
+1. ChatGPT could not understand and see how the code might not execute in if and else
+2. Open AI API key makes three one as ORD-3 any prompt changes or what as a human do you think the answer should be?
+ Rules:
+Order IDs → ORD-<number>
+SKUs → SKU-<number>
+
+Return only the normalized value.
+
+3. cross platform questioning of errors between ChatGPT and Claude 
+
+4. Synthetic data generation error 

@@ -1,0 +1,2916 @@
+{
+  "orders": [
+    {
+      "scenario": "inventory_shortage",
+      "expected_risks": [
+        "inventory_shortage"
+      ],
+      "context": {
+        "stock_at_time_of_order": 46,
+        "pending_units_at_time": 65,
+        "effective_stock_at_time": 0
+      },
+      "payload": {
+        "order_id": "ord-10222",
+        "customer_id": "CUST-0043",
+        "sku": " SKU-APPL-202 ",
+        "order_date": "2026-03-20T08:09:43.994930+00:00",
+        "quantity": 80,
+        "expected_ship_date": "2026-03-25T08:09:43.994930+00:00"
+      }
+    },
+    {
+      "scenario": "sla_breach",
+      "expected_risks": [
+        "sla_violation",
+        "shipment_delay"
+      ],
+      "context": {
+        "stock_at_time_of_order": 378,
+        "pending_units_at_time": 188,
+        "effective_stock_at_time": 190
+      },
+      "payload": {
+        "order_id": "ORDER-10315",
+        "customer_id": "CUST-0023",
+        "sku": " SKU-FOOD-402 ",
+        "order_date": "2026-03-20T08:09:43.995176+00:00",
+        "quantity": 5,
+        "expected_ship_date": "2026-03-20T10:09:43.995176+00:00"
+      }
+    },
+    {
+      "scenario": "inventory_shortage",
+      "expected_risks": [
+        "inventory_shortage"
+      ],
+      "context": {
+        "stock_at_time_of_order": 207,
+        "pending_units_at_time": 65,
+        "effective_stock_at_time": 142
+      },
+      "payload": {
+        "order_id": " ORD-10182 ",
+        "customer_id": "CUST-0022",
+        "sku": "SKU-APPL-202",
+        "order_date": "2026-03-20T08:09:43.994764+00:00",
+        "quantity": 69,
+        "expected_ship_date": "2026-03-25T08:09:43.994764+00:00"
+      }
+    },
+    {
+      "scenario": "post_restock",
+      "expected_risks": [],
+      "context": {
+        "stock_at_time_of_order": 212,
+        "pending_units_at_time": 40,
+        "effective_stock_at_time": 307
+      },
+      "payload": {
+        "order_id": "ORDER-10437",
+        "customer_id": "CUST-0035",
+        "sku": "SKU-APPL-201",
+        "order_date": "2026-03-20T08:09:43.995500+00:00",
+        "quantity": 10,
+        "expected_ship_date": "2026-03-23T08:09:43.995500+00:00"
+      }
+    },
+    {
+      "scenario": "inventory_shortage",
+      "expected_risks": [
+        "inventory_shortage"
+      ],
+      "context": {
+        "stock_at_time_of_order": 21,
+        "pending_units_at_time": 65,
+        "effective_stock_at_time": 0
+      },
+      "payload": {
+        "order_id": "ord_10215",
+        "customer_id": "CUST-0008",
+        "sku": "SKU_APPL_202",
+        "order_date": "2026-03-20T08:09:43.994902+00:00",
+        "quantity": 119,
+        "expected_ship_date": "2026-03-25T08:09:43.994902+00:00"
+      }
+    },
+    {
+      "scenario": "normal",
+      "expected_risks": [],
+      "context": {
+        "stock_at_time_of_order": 339,
+        "pending_units_at_time": 0,
+        "effective_stock_at_time": 339
+      },
+      "payload": {
+        "order_id": "10013",
+        "customer_id": "CUST-0039",
+        "sku": "SKU-FURN-101",
+        "order_date": "2026-03-20T08:09:43.994320+00:00",
+        "quantity": 72,
+        "expected_ship_date": "2026-03-24T08:09:43.994320+00:00"
+      }
+    },
+    {
+      "scenario": "normal",
+      "expected_risks": [],
+      "context": {
+        "stock_at_time_of_order": 185,
+        "pending_units_at_time": 0,
+        "effective_stock_at_time": 185
+      },
+      "payload": {
+        "order_id": "10150",
+        "customer_id": "CUST-0029",
+        "sku": "SKU-APPL-203",
+        "order_date": "2026-03-20T08:09:43.994675+00:00",
+        "quantity": 16,
+        "expected_ship_date": "2026-03-24T08:09:43.994675+00:00"
+      }
+    },
+    {
+      "scenario": "shipment_delay",
+      "expected_risks": [
+        "shipment_delay",
+        "sla_violation"
+      ],
+      "context": {
+        "stock_at_time_of_order": 156,
+        "pending_units_at_time": 53,
+        "effective_stock_at_time": 103
+      },
+      "payload": {
+        "order_id": "ord_10284",
+        "customer_id": "CUST-0009",
+        "sku": "SKU-ELEC-003",
+        "order_date": "2026-03-20T08:09:43.995085+00:00",
+        "quantity": 10,
+        "expected_ship_date": "2026-03-17T08:09:43.995085+00:00"
+      }
+    },
+    {
+      "scenario": "shipment_delay",
+      "expected_risks": [
+        "shipment_delay",
+        "sla_violation"
+      ],
+      "context": {
+        "stock_at_time_of_order": 313,
+        "pending_units_at_time": 48,
+        "effective_stock_at_time": 265
+      },
+      "payload": {
+        "order_id": " ORD-10246 ",
+        "customer_id": "CUST-0036",
+        "sku": "sku_ELEC-001",
+        "order_date": "2026-03-20T08:09:43.994999+00:00",
+        "quantity": 14,
+        "expected_ship_date": "2026-03-18T08:09:43.994999+00:00"
+      }
+    },
+    {
+      "scenario": "high_risk",
+      "expected_risks": [
+        "inventory_shortage",
+        "sla_violation",
+        "shipment_delay"
+      ],
+      "context": {
+        "stock_at_time_of_order": 17,
+        "pending_units_at_time": 71,
+        "effective_stock_at_time": 0
+      },
+      "payload": {
+        "order_id": "ORDER-10352",
+        "customer_id": "CUST-0026",
+        "sku": " SKU-APPL-202 ",
+        "order_date": "2026-03-20T08:09:43.995267+00:00",
+        "quantity": 219,
+        "expected_ship_date": "2026-03-20T09:09:43.995267+00:00"
+      }
+    },
+    {
+      "scenario": "dirty_data",
+      "expected_risks": [],
+      "context": {
+        "stock_at_time_of_order": 607,
+        "pending_units_at_time": 248,
+        "effective_stock_at_time": 359
+      },
+      "payload": {
+        "order_id": "order #1096",
+        "customer_id": "CUST-0025",
+        "sku": "sku.furn.2",
+        "order_date": "2026-03-20T08:09:43.995545+00:00",
+        "quantity": 13,
+        "expected_ship_date": "2026-03-23T08:09:43.995545+00:00"
+      }
+    },
+    {
+      "scenario": "shipment_delay",
+      "expected_risks": [
+        "shipment_delay",
+        "sla_violation"
+      ],
+      "context": {
+        "stock_at_time_of_order": 176,
+        "pending_units_at_time": 44,
+        "effective_stock_at_time": 132
+      },
+      "payload": {
+        "order_id": "ord-10256",
+        "customer_id": "CUST-0046",
+        "sku": "sku_CLTH-302",
+        "order_date": "2026-03-20T08:09:43.995023+00:00",
+        "quantity": 14,
+        "expected_ship_date": "2026-03-17T08:09:43.995023+00:00"
+      }
+    },
+    {
+      "scenario": "shipment_delay",
+      "expected_risks": [
+        "shipment_delay",
+        "sla_violation"
+      ],
+      "context": {
+        "stock_at_time_of_order": 178,
+        "pending_units_at_time": 58,
+        "effective_stock_at_time": 120
+      },
+      "payload": {
+        "order_id": "ORD-10251",
+        "customer_id": "CUST-0048",
+        "sku": "SKU_ELEC_002",
+        "order_date": "2026-03-20T08:09:43.995011+00:00",
+        "quantity": 5,
+        "expected_ship_date": "2026-03-17T08:09:43.995011+00:00"
+      }
+    },
+    {
+      "scenario": "duplicate",
+      "expected_risks": [],
+      "context": {
+        "stock_at_time_of_order": 393,
+        "pending_units_at_time": 71,
+        "effective_stock_at_time": 322
+      },
+      "payload": {
+        "order_id": "ORD-99999",
+        "customer_id": "CUST-0001",
+        "sku": "SKU-ELEC-001",
+        "order_date": "2026-03-20T08:09:43.995629+00:00",
+        "quantity": 5,
+        "expected_ship_date": "2026-03-23T08:09:43.995629+00:00"
+      }
+    },
+    {
+      "scenario": "normal",
+      "expected_risks": [],
+      "context": {
+        "stock_at_time_of_order": 339,
+        "pending_units_at_time": 173,
+        "effective_stock_at_time": 166
+      },
+      "payload": {
+        "order_id": "ORD-10118",
+        "customer_id": "CUST-0016",
+        "sku": "SKU_FURN_101",
+        "order_date": "2026-03-20T08:09:43.994628+00:00",
+        "quantity": 6,
+        "expected_ship_date": "2026-03-23T08:09:43.994628+00:00"
+      }
+    },
+    {
+      "scenario": "dirty_data",
+      "expected_risks": [],
+      "context": {
+        "stock_at_time_of_order": 347,
+        "pending_units_at_time": 50,
+        "effective_stock_at_time": 297
+      },
+      "payload": {
+        "order_id": "order #6529",
+        "customer_id": "CUST-0030",
+        "sku": "sku.furn.2",
+        "order_date": "2026-03-20T08:09:43.995616+00:00",
+        "quantity": 13,
+        "expected_ship_date": "2026-03-23T08:09:43.995616+00:00"
+      }
+    },
+    {
+      "scenario": "post_restock",
+      "expected_risks": [],
+      "context": {
+        "stock_at_time_of_order": 220,
+        "pending_units_at_time": 40,
+        "effective_stock_at_time": 353
+      },
+      "payload": {
+        "order_id": "ord_10432",
+        "customer_id": "CUST-0005",
+        "sku": " SKU-FURN-102 ",
+        "order_date": "2026-03-20T08:09:43.995488+00:00",
+        "quantity": 31,
+        "expected_ship_date": "2026-03-23T08:09:43.995488+00:00"
+      }
+    },
+    {
+      "scenario": "sla_breach",
+      "expected_risks": [
+        "sla_violation",
+        "shipment_delay"
+      ],
+      "context": {
+        "stock_at_time_of_order": 339,
+        "pending_units_at_time": 235,
+        "effective_stock_at_time": 104
+      },
+      "payload": {
+        "order_id": "ord-10309",
+        "customer_id": "CUST-0030",
+        "sku": "sku_FURN-101",
+        "order_date": "2026-03-20T08:09:43.995149+00:00",
+        "quantity": 3,
+        "expected_ship_date": "2026-03-20T09:09:43.995149+00:00"
+      }
+    },
+    {
+      "scenario": "shipment_delay",
+      "expected_risks": [
+        "shipment_delay",
+        "sla_violation"
+      ],
+      "context": {
+        "stock_at_time_of_order": 338,
+        "pending_units_at_time": 60,
+        "effective_stock_at_time": 278
+      },
+      "payload": {
+        "order_id": "ord-10235",
+        "customer_id": "CUST-0033",
+        "sku": "sku_CLTH-301",
+        "order_date": "2026-03-20T08:09:43.994974+00:00",
+        "quantity": 17,
+        "expected_ship_date": "2026-03-17T08:09:43.994974+00:00"
+      }
+    },
+    {
+      "scenario": "normal",
+      "expected_risks": [],
+      "context": {
+        "stock_at_time_of_order": 338,
+        "pending_units_at_time": 0,
+        "effective_stock_at_time": 338
+      },
+      "payload": {
+        "order_id": " ORD-10055 ",
+        "customer_id": "CUST-0016",
+        "sku": "sku-clth-301",
+        "order_date": "2026-03-20T08:09:43.994464+00:00",
+        "quantity": 60,
+        "expected_ship_date": "2026-03-26T08:09:43.994464+00:00"
+      }
+    },
+    {
+      "scenario": "normal",
+      "expected_risks": [],
+      "context": {
+        "stock_at_time_of_order": 313,
+        "pending_units_at_time": 0,
+        "effective_stock_at_time": 313
+      },
+      "payload": {
+        "order_id": "ORDER-10064",
+        "customer_id": "CUST-0026",
+        "sku": "sku_ELEC-001",
+        "order_date": "2026-03-20T08:09:43.994486+00:00",
+        "quantity": 9,
+        "expected_ship_date": "2026-03-24T08:09:43.994486+00:00"
+      }
+    },
+    {
+      "scenario": "dirty_data",
+      "expected_risks": [],
+      "context": {
+        "stock_at_time_of_order": 338,
+        "pending_units_at_time": 77,
+        "effective_stock_at_time": 261
+      },
+      "payload": {
+        "order_id": "order #4388",
+        "customer_id": "CUST-0027",
+        "sku": "sku.furn.2",
+        "order_date": "2026-03-20T08:09:43.995530+00:00",
+        "quantity": 15,
+        "expected_ship_date": "2026-03-23T08:09:43.995530+00:00"
+      }
+    },
+    {
+      "scenario": "normal",
+      "expected_risks": [],
+      "context": {
+        "stock_at_time_of_order": 176,
+        "pending_units_at_time": 0,
+        "effective_stock_at_time": 176
+      },
+      "payload": {
+        "order_id": "ord_10092",
+        "customer_id": "CUST-0034",
+        "sku": "sku_CLTH-302",
+        "order_date": "2026-03-20T08:09:43.994557+00:00",
+        "quantity": 36,
+        "expected_ship_date": "2026-03-23T08:09:43.994557+00:00"
+      }
+    },
+    {
+      "scenario": "high_risk",
+      "expected_risks": [
+        "inventory_shortage",
+        "sla_violation",
+        "shipment_delay"
+      ],
+      "context": {
+        "stock_at_time_of_order": 32,
+        "pending_units_at_time": 71,
+        "effective_stock_at_time": 0
+      },
+      "payload": {
+        "order_id": "ord_10338",
+        "customer_id": "CUST-0037",
+        "sku": "sku-appl-202",
+        "order_date": "2026-03-20T08:09:43.995221+00:00",
+        "quantity": 87,
+        "expected_ship_date": "2026-03-20T11:09:43.995221+00:00"
+      }
+    },
+    {
+      "scenario": "sla_breach",
+      "expected_risks": [
+        "sla_violation",
+        "shipment_delay"
+      ],
+      "context": {
+        "stock_at_time_of_order": 30,
+        "pending_units_at_time": 68,
+        "effective_stock_at_time": 0
+      },
+      "payload": {
+        "order_id": "ORD-10297",
+        "customer_id": "CUST-0012",
+        "sku": " SKU-APPL-202 ",
+        "order_date": "2026-03-20T08:09:43.995125+00:00",
+        "quantity": 3,
+        "expected_ship_date": "2026-03-20T10:09:43.995125+00:00"
+      }
+    },
+    {
+      "scenario": "competing_orders",
+      "expected_risks": [
+        "inventory_shortage"
+      ],
+      "context": {
+        "stock_at_time_of_order": 23,
+        "pending_units_at_time": 71,
+        "effective_stock_at_time": 0
+      },
+      "payload": {
+        "order_id": "ord-10378",
+        "customer_id": "CUST-0044",
+        "sku": "sku_APPL-202",
+        "order_date": "2026-03-20T08:09:43.995343+00:00",
+        "quantity": 12,
+        "expected_ship_date": "2026-03-23T08:09:43.995343+00:00"
+      }
+    },
+    {
+      "scenario": "duplicate",
+      "expected_risks": [],
+      "context": {
+        "stock_at_time_of_order": 313,
+        "pending_units_at_time": 106,
+        "effective_stock_at_time": 207
+      },
+      "payload": {
+        "order_id": "ORD-99999",
+        "customer_id": "CUST-0001",
+        "sku": "SKU-ELEC-001",
+        "order_date": "2026-03-20T08:09:43.995641+00:00",
+        "quantity": 5,
+        "expected_ship_date": "2026-03-23T08:09:43.995641+00:00"
+      }
+    },
+    {
+      "scenario": "competing_orders",
+      "expected_risks": [
+        "inventory_shortage"
+      ],
+      "context": {
+        "stock_at_time_of_order": 23,
+        "pending_units_at_time": 71,
+        "effective_stock_at_time": 0
+      },
+      "payload": {
+        "order_id": "ORD-10401",
+        "customer_id": "CUST-0036",
+        "sku": "sku-appl-202",
+        "order_date": "2026-03-20T08:09:43.995414+00:00",
+        "quantity": 8,
+        "expected_ship_date": "2026-03-23T08:09:43.995414+00:00"
+      }
+    },
+    {
+      "scenario": "high_risk",
+      "expected_risks": [
+        "inventory_shortage",
+        "sla_violation",
+        "shipment_delay"
+      ],
+      "context": {
+        "stock_at_time_of_order": 22,
+        "pending_units_at_time": 71,
+        "effective_stock_at_time": 0
+      },
+      "payload": {
+        "order_id": "10347",
+        "customer_id": "CUST-0021",
+        "sku": " SKU-APPL-202 ",
+        "order_date": "2026-03-20T08:09:43.995252+00:00",
+        "quantity": 143,
+        "expected_ship_date": "2026-03-20T11:09:43.995252+00:00"
+      }
+    },
+    {
+      "scenario": "normal",
+      "expected_risks": [],
+      "context": {
+        "stock_at_time_of_order": 339,
+        "pending_units_at_time": 20,
+        "effective_stock_at_time": 319
+      },
+      "payload": {
+        "order_id": "ORD-10047",
+        "customer_id": "CUST-0003",
+        "sku": " SKU-FOOD-401 ",
+        "order_date": "2026-03-20T08:09:43.994422+00:00",
+        "quantity": 30,
+        "expected_ship_date": "2026-03-25T08:09:43.994422+00:00"
+      }
+    },
+    {
+      "scenario": "sla_breach",
+      "expected_risks": [
+        "sla_violation",
+        "shipment_delay"
+      ],
+      "context": {
+        "stock_at_time_of_order": 313,
+        "pending_units_at_time": 103,
+        "effective_stock_at_time": 210
+      },
+      "payload": {
+        "order_id": " ORD-10313 ",
+        "customer_id": "CUST-0013",
+        "sku": "SKUELEC-001",
+        "order_date": "2026-03-20T08:09:43.995162+00:00",
+        "quantity": 3,
+        "expected_ship_date": "2026-03-20T10:09:43.995162+00:00"
+      }
+    },
+    {
+      "scenario": "competing_orders",
+      "expected_risks": [
+        "inventory_shortage"
+      ],
+      "context": {
+        "stock_at_time_of_order": 23,
+        "pending_units_at_time": 71,
+        "effective_stock_at_time": 0
+      },
+      "payload": {
+        "order_id": "ORDER-10372",
+        "customer_id": "CUST-0033",
+        "sku": " SKU-APPL-202 ",
+        "order_date": "2026-03-20T08:09:43.995329+00:00",
+        "quantity": 25,
+        "expected_ship_date": "2026-03-23T08:09:43.995329+00:00"
+      }
+    },
+    {
+      "scenario": "inventory_shortage",
+      "expected_risks": [
+        "inventory_shortage"
+      ],
+      "context": {
+        "stock_at_time_of_order": 27,
+        "pending_units_at_time": 65,
+        "effective_stock_at_time": 0
+      },
+      "payload": {
+        "order_id": "ord_10190",
+        "customer_id": "CUST-0036",
+        "sku": "SKU-APPL-202",
+        "order_date": "2026-03-20T08:09:43.994800+00:00",
+        "quantity": 102,
+        "expected_ship_date": "2026-03-25T08:09:43.994800+00:00"
+      }
+    },
+    {
+      "scenario": "inventory_shortage",
+      "expected_risks": [
+        "inventory_shortage"
+      ],
+      "context": {
+        "stock_at_time_of_order": 40,
+        "pending_units_at_time": 65,
+        "effective_stock_at_time": 0
+      },
+      "payload": {
+        "order_id": "ORD-10213",
+        "customer_id": "CUST-0033",
+        "sku": "SKU-APPL-202",
+        "order_date": "2026-03-20T08:09:43.994888+00:00",
+        "quantity": 49,
+        "expected_ship_date": "2026-03-25T08:09:43.994888+00:00"
+      }
+    },
+    {
+      "scenario": "shipment_delay",
+      "expected_risks": [
+        "shipment_delay",
+        "sla_violation"
+      ],
+      "context": {
+        "stock_at_time_of_order": 313,
+        "pending_units_at_time": 62,
+        "effective_stock_at_time": 251
+      },
+      "payload": {
+        "order_id": "ORD-10270",
+        "customer_id": "CUST-0022",
+        "sku": "sku-elec-001",
+        "order_date": "2026-03-20T08:09:43.995048+00:00",
+        "quantity": 41,
+        "expected_ship_date": "2026-03-17T08:09:43.995048+00:00"
+      }
+    },
+    {
+      "scenario": "dirty_data",
+      "expected_risks": [],
+      "context": {
+        "stock_at_time_of_order": 23,
+        "pending_units_at_time": 71,
+        "effective_stock_at_time": 0
+      },
+      "payload": {
+        "order_id": "order #4505",
+        "customer_id": "CUST-0010",
+        "sku": "sku.elec.2",
+        "order_date": "2026-03-20T08:09:43.995512+00:00",
+        "quantity": 7,
+        "expected_ship_date": "2026-03-23T08:09:43.995512+00:00"
+      }
+    },
+    {
+      "scenario": "shipment_delay",
+      "expected_risks": [
+        "shipment_delay",
+        "sla_violation"
+      ],
+      "context": {
+        "stock_at_time_of_order": 178,
+        "pending_units_at_time": 63,
+        "effective_stock_at_time": 115
+      },
+      "payload": {
+        "order_id": " ORD-10275 ",
+        "customer_id": "CUST-0010",
+        "sku": "SKU_ELEC_002",
+        "order_date": "2026-03-20T08:09:43.995073+00:00",
+        "quantity": 2,
+        "expected_ship_date": "2026-03-17T08:09:43.995073+00:00"
+      }
+    },
+    {
+      "scenario": "normal",
+      "expected_risks": [],
+      "context": {
+        "stock_at_time_of_order": 323,
+        "pending_units_at_time": 42,
+        "effective_stock_at_time": 281
+      },
+      "payload": {
+        "order_id": "ord-10085",
+        "customer_id": "CUST-0044",
+        "sku": "SKUCLTH-303",
+        "order_date": "2026-03-20T08:09:43.994546+00:00",
+        "quantity": 9,
+        "expected_ship_date": "2026-03-26T08:09:43.994546+00:00"
+      }
+    },
+    {
+      "scenario": "normal",
+      "expected_risks": [],
+      "context": {
+        "stock_at_time_of_order": 339,
+        "pending_units_at_time": 216,
+        "effective_stock_at_time": 123
+      },
+      "payload": {
+        "order_id": "ord_10174",
+        "customer_id": "CUST-0027",
+        "sku": "sku-furn-101",
+        "order_date": "2026-03-20T08:09:43.994737+00:00",
+        "quantity": 4,
+        "expected_ship_date": "2026-03-23T08:09:43.994737+00:00"
+      }
+    },
+    {
+      "scenario": "normal",
+      "expected_risks": [],
+      "context": {
+        "stock_at_time_of_order": 323,
+        "pending_units_at_time": 0,
+        "effective_stock_at_time": 323
+      },
+      "payload": {
+        "order_id": " ORD-10060 ",
+        "customer_id": "CUST-0036",
+        "sku": "sku-clth-303",
+        "order_date": "2026-03-20T08:09:43.994475+00:00",
+        "quantity": 42,
+        "expected_ship_date": "2026-03-23T08:09:43.994475+00:00"
+      }
+    },
+    {
+      "scenario": "inventory_shortage",
+      "expected_risks": [
+        "inventory_shortage"
+      ],
+      "context": {
+        "stock_at_time_of_order": 25,
+        "pending_units_at_time": 65,
+        "effective_stock_at_time": 0
+      },
+      "payload": {
+        "order_id": "ord_10216",
+        "customer_id": "CUST-0043",
+        "sku": "SKU_APPL_202",
+        "order_date": "2026-03-20T08:09:43.994916+00:00",
+        "quantity": 132,
+        "expected_ship_date": "2026-03-25T08:09:43.994916+00:00"
+      }
+    },
+    {
+      "scenario": "high_risk",
+      "expected_risks": [
+        "inventory_shortage",
+        "sla_violation",
+        "shipment_delay"
+      ],
+      "context": {
+        "stock_at_time_of_order": 30,
+        "pending_units_at_time": 71,
+        "effective_stock_at_time": 0
+      },
+      "payload": {
+        "order_id": "ORD-10329",
+        "customer_id": "CUST-0039",
+        "sku": "SKUAPPL-202",
+        "order_date": "2026-03-20T08:09:43.995204+00:00",
+        "quantity": 162,
+        "expected_ship_date": "2026-03-20T10:09:43.995204+00:00"
+      }
+    },
+    {
+      "scenario": "normal",
+      "expected_risks": [],
+      "context": {
+        "stock_at_time_of_order": 212,
+        "pending_units_at_time": 18,
+        "effective_stock_at_time": 194
+      },
+      "payload": {
+        "order_id": "ORD-10152",
+        "customer_id": "CUST-0038",
+        "sku": "SKU_APPL_201",
+        "order_date": "2026-03-20T08:09:43.994689+00:00",
+        "quantity": 15,
+        "expected_ship_date": "2026-03-27T08:09:43.994689+00:00"
+      }
+    },
+    {
+      "scenario": "inventory_shortage",
+      "expected_risks": [
+        "inventory_shortage"
+      ],
+      "context": {
+        "stock_at_time_of_order": 10,
+        "pending_units_at_time": 65,
+        "effective_stock_at_time": 0
+      },
+      "payload": {
+        "order_id": "ORDER-10200",
+        "customer_id": "CUST-0028",
+        "sku": " SKU-APPL-202 ",
+        "order_date": "2026-03-20T08:09:43.994846+00:00",
+        "quantity": 127,
+        "expected_ship_date": "2026-03-25T08:09:43.994846+00:00"
+      }
+    },
+    {
+      "scenario": "shipment_delay",
+      "expected_risks": [
+        "shipment_delay",
+        "sla_violation"
+      ],
+      "context": {
+        "stock_at_time_of_order": 185,
+        "pending_units_at_time": 16,
+        "effective_stock_at_time": 169
+      },
+      "payload": {
+        "order_id": "ORDER-10265",
+        "customer_id": "CUST-0004",
+        "sku": "SKU-APPL-203",
+        "order_date": "2026-03-20T08:09:43.995036+00:00",
+        "quantity": 41,
+        "expected_ship_date": "2026-03-16T08:09:43.995036+00:00"
+      }
+    },
+    {
+      "scenario": "shipment_delay",
+      "expected_risks": [
+        "shipment_delay",
+        "sla_violation"
+      ],
+      "context": {
+        "stock_at_time_of_order": 339,
+        "pending_units_at_time": 102,
+        "effective_stock_at_time": 237
+      },
+      "payload": {
+        "order_id": "ord_10273",
+        "customer_id": "CUST-0036",
+        "sku": " SKU-FOOD-401 ",
+        "order_date": "2026-03-20T08:09:43.995061+00:00",
+        "quantity": 28,
+        "expected_ship_date": "2026-03-19T08:09:43.995061+00:00"
+      }
+    },
+    {
+      "scenario": "normal",
+      "expected_risks": [],
+      "context": {
+        "stock_at_time_of_order": 178,
+        "pending_units_at_time": 25,
+        "effective_stock_at_time": 153
+      },
+      "payload": {
+        "order_id": "10043",
+        "customer_id": "CUST-0019",
+        "sku": " SKU-ELEC-002 ",
+        "order_date": "2026-03-20T08:09:43.994410+00:00",
+        "quantity": 24,
+        "expected_ship_date": "2026-03-27T08:09:43.994410+00:00"
+      }
+    },
+    {
+      "scenario": "sla_breach",
+      "expected_risks": [
+        "sla_violation",
+        "shipment_delay"
+      ],
+      "context": {
+        "stock_at_time_of_order": 212,
+        "pending_units_at_time": 38,
+        "effective_stock_at_time": 174
+      },
+      "payload": {
+        "order_id": "ORD-10324",
+        "customer_id": "CUST-0008",
+        "sku": "sku_APPL-201",
+        "order_date": "2026-03-20T08:09:43.995191+00:00",
+        "quantity": 2,
+        "expected_ship_date": "2026-03-20T11:09:43.995191+00:00"
+      }
+    },
+    {
+      "scenario": "normal",
+      "expected_risks": [],
+      "context": {
+        "stock_at_time_of_order": 156,
+        "pending_units_at_time": 39,
+        "effective_stock_at_time": 117
+      },
+      "payload": {
+        "order_id": "ORDER-10135",
+        "customer_id": "CUST-0034",
+        "sku": "SKU_ELEC_003",
+        "order_date": "2026-03-20T08:09:43.994651+00:00",
+        "quantity": 14,
+        "expected_ship_date": "2026-03-24T08:09:43.994651+00:00"
+      }
+    },
+    {
+      "scenario": "normal",
+      "expected_risks": [],
+      "context": {
+        "stock_at_time_of_order": 178,
+        "pending_units_at_time": 0,
+        "effective_stock_at_time": 178
+      },
+      "payload": {
+        "order_id": "10009",
+        "customer_id": "CUST-0028",
+        "sku": "SKU-ELEC-002",
+        "order_date": "2026-03-20T08:09:43.993886+00:00",
+        "quantity": 2,
+        "expected_ship_date": "2026-03-23T08:09:43.993886+00:00"
+      }
+    },
+    {
+      "scenario": "competing_orders",
+      "expected_risks": [
+        "inventory_shortage"
+      ],
+      "context": {
+        "stock_at_time_of_order": 23,
+        "pending_units_at_time": 71,
+        "effective_stock_at_time": 0
+      },
+      "payload": {
+        "order_id": "ord_10384",
+        "customer_id": "CUST-0041",
+        "sku": "SKU_APPL_202",
+        "order_date": "2026-03-20T08:09:43.995374+00:00",
+        "quantity": 11,
+        "expected_ship_date": "2026-03-23T08:09:43.995374+00:00"
+      }
+    },
+    {
+      "scenario": "inventory_shortage",
+      "expected_risks": [
+        "inventory_shortage"
+      ],
+      "context": {
+        "stock_at_time_of_order": 45,
+        "pending_units_at_time": 65,
+        "effective_stock_at_time": 0
+      },
+      "payload": {
+        "order_id": "ORDER-10203",
+        "customer_id": "CUST-0014",
+        "sku": "SKU-APPL-202",
+        "order_date": "2026-03-20T08:09:43.994860+00:00",
+        "quantity": 136,
+        "expected_ship_date": "2026-03-25T08:09:43.994860+00:00"
+      }
+    },
+    {
+      "scenario": "competing_orders",
+      "expected_risks": [
+        "inventory_shortage"
+      ],
+      "context": {
+        "stock_at_time_of_order": 23,
+        "pending_units_at_time": 71,
+        "effective_stock_at_time": 0
+      },
+      "payload": {
+        "order_id": "ord_10392",
+        "customer_id": "CUST-0015",
+        "sku": "sku-appl-202",
+        "order_date": "2026-03-20T08:09:43.995401+00:00",
+        "quantity": 30,
+        "expected_ship_date": "2026-03-23T08:09:43.995401+00:00"
+      }
+    },
+    {
+      "scenario": "normal",
+      "expected_risks": [],
+      "context": {
+        "stock_at_time_of_order": 178,
+        "pending_units_at_time": 2,
+        "effective_stock_at_time": 176
+      },
+      "payload": {
+        "order_id": "ORD-10031",
+        "customer_id": "CUST-0025",
+        "sku": "SKU-ELEC-002",
+        "order_date": "2026-03-20T08:09:43.994385+00:00",
+        "quantity": 23,
+        "expected_ship_date": "2026-03-25T08:09:43.994385+00:00"
+      }
+    },
+    {
+      "scenario": "normal",
+      "expected_risks": [],
+      "context": {
+        "stock_at_time_of_order": 176,
+        "pending_units_at_time": 36,
+        "effective_stock_at_time": 140
+      },
+      "payload": {
+        "order_id": "ORDER-10113",
+        "customer_id": "CUST-0032",
+        "sku": "SKU-CLTH-302",
+        "order_date": "2026-03-20T08:09:43.994617+00:00",
+        "quantity": 8,
+        "expected_ship_date": "2026-03-25T08:09:43.994617+00:00"
+      }
+    },
+    {
+      "scenario": "inventory_shortage",
+      "expected_risks": [
+        "inventory_shortage"
+      ],
+      "context": {
+        "stock_at_time_of_order": 47,
+        "pending_units_at_time": 65,
+        "effective_stock_at_time": 0
+      },
+      "payload": {
+        "order_id": "ORD-10204",
+        "customer_id": "CUST-0004",
+        "sku": "SKU_APPL_202",
+        "order_date": "2026-03-20T08:09:43.994874+00:00",
+        "quantity": 124,
+        "expected_ship_date": "2026-03-25T08:09:43.994874+00:00"
+      }
+    },
+    {
+      "scenario": "competing_orders",
+      "expected_risks": [
+        "inventory_shortage"
+      ],
+      "context": {
+        "stock_at_time_of_order": 23,
+        "pending_units_at_time": 71,
+        "effective_stock_at_time": 0
+      },
+      "payload": {
+        "order_id": "ord_10409",
+        "customer_id": "CUST-0043",
+        "sku": "SKU_APPL_202",
+        "order_date": "2026-03-20T08:09:43.995429+00:00",
+        "quantity": 22,
+        "expected_ship_date": "2026-03-23T08:09:43.995429+00:00"
+      }
+    },
+    {
+      "scenario": "normal",
+      "expected_risks": [],
+      "context": {
+        "stock_at_time_of_order": 212,
+        "pending_units_at_time": 33,
+        "effective_stock_at_time": 179
+      },
+      "payload": {
+        "order_id": "ord_10181",
+        "customer_id": "CUST-0027",
+        "sku": "SKUAPPL-201",
+        "order_date": "2026-03-20T08:09:43.994750+00:00",
+        "quantity": 4,
+        "expected_ship_date": "2026-03-23T08:09:43.994750+00:00"
+      }
+    },
+    {
+      "scenario": "normal",
+      "expected_risks": [],
+      "context": {
+        "stock_at_time_of_order": 156,
+        "pending_units_at_time": 4,
+        "effective_stock_at_time": 152
+      },
+      "payload": {
+        "order_id": "ORDER-10112",
+        "customer_id": "CUST-0049",
+        "sku": "sku-elec-003",
+        "order_date": "2026-03-20T08:09:43.994605+00:00",
+        "quantity": 35,
+        "expected_ship_date": "2026-03-27T08:09:43.994605+00:00"
+      }
+    },
+    {
+      "scenario": "dirty_data",
+      "expected_risks": [],
+      "context": {
+        "stock_at_time_of_order": 23,
+        "pending_units_at_time": 71,
+        "effective_stock_at_time": 0
+      },
+      "payload": {
+        "order_id": "order #9947",
+        "customer_id": "CUST-0048",
+        "sku": "sku.appl.1",
+        "order_date": "2026-03-20T08:09:43.995559+00:00",
+        "quantity": 8,
+        "expected_ship_date": "2026-03-23T08:09:43.995559+00:00"
+      }
+    },
+    {
+      "scenario": "sla_breach",
+      "expected_risks": [
+        "sla_violation",
+        "shipment_delay"
+      ],
+      "context": {
+        "stock_at_time_of_order": 220,
+        "pending_units_at_time": 36,
+        "effective_stock_at_time": 184
+      },
+      "payload": {
+        "order_id": "ord-10301",
+        "customer_id": "CUST-0045",
+        "sku": "SKU-FURN-102",
+        "order_date": "2026-03-20T08:09:43.995137+00:00",
+        "quantity": 4,
+        "expected_ship_date": "2026-03-20T09:09:43.995137+00:00"
+      }
+    },
+    {
+      "scenario": "inventory_shortage",
+      "expected_risks": [
+        "inventory_shortage"
+      ],
+      "context": {
+        "stock_at_time_of_order": 25,
+        "pending_units_at_time": 65,
+        "effective_stock_at_time": 0
+      },
+      "payload": {
+        "order_id": "ord-10186",
+        "customer_id": "CUST-0028",
+        "sku": "sku-appl-202",
+        "order_date": "2026-03-20T08:09:43.994783+00:00",
+        "quantity": 106,
+        "expected_ship_date": "2026-03-25T08:09:43.994783+00:00"
+      }
+    },
+    {
+      "scenario": "high_risk",
+      "expected_risks": [
+        "inventory_shortage",
+        "sla_violation",
+        "shipment_delay"
+      ],
+      "context": {
+        "stock_at_time_of_order": 26,
+        "pending_units_at_time": 71,
+        "effective_stock_at_time": 0
+      },
+      "payload": {
+        "order_id": "10345",
+        "customer_id": "CUST-0035",
+        "sku": " SKU-APPL-202 ",
+        "order_date": "2026-03-20T08:09:43.995237+00:00",
+        "quantity": 165,
+        "expected_ship_date": "2026-03-20T10:09:43.995237+00:00"
+      }
+    },
+    {
+      "scenario": "normal",
+      "expected_risks": [],
+      "context": {
+        "stock_at_time_of_order": 339,
+        "pending_units_at_time": 50,
+        "effective_stock_at_time": 289
+      },
+      "payload": {
+        "order_id": "10078",
+        "customer_id": "CUST-0028",
+        "sku": "SKU_FOOD_401",
+        "order_date": "2026-03-20T08:09:43.994523+00:00",
+        "quantity": 52,
+        "expected_ship_date": "2026-03-25T08:09:43.994523+00:00"
+      }
+    },
+    {
+      "scenario": "inventory_shortage",
+      "expected_risks": [
+        "inventory_shortage"
+      ],
+      "context": {
+        "stock_at_time_of_order": 13,
+        "pending_units_at_time": 65,
+        "effective_stock_at_time": 0
+      },
+      "payload": {
+        "order_id": "ord-10191",
+        "customer_id": "CUST-0011",
+        "sku": "SKUAPPL-202",
+        "order_date": "2026-03-20T08:09:43.994817+00:00",
+        "quantity": 122,
+        "expected_ship_date": "2026-03-25T08:09:43.994817+00:00"
+      }
+    },
+    {
+      "scenario": "high_risk",
+      "expected_risks": [
+        "inventory_shortage",
+        "sla_violation",
+        "shipment_delay"
+      ],
+      "context": {
+        "stock_at_time_of_order": 21,
+        "pending_units_at_time": 71,
+        "effective_stock_at_time": 0
+      },
+      "payload": {
+        "order_id": "ORDER-10363",
+        "customer_id": "CUST-0019",
+        "sku": "sku-appl-202",
+        "order_date": "2026-03-20T08:09:43.995299+00:00",
+        "quantity": 235,
+        "expected_ship_date": "2026-03-20T11:09:43.995299+00:00"
+      }
+    },
+    {
+      "scenario": "dirty_data",
+      "expected_risks": [],
+      "context": {
+        "stock_at_time_of_order": 339,
+        "pending_units_at_time": 130,
+        "effective_stock_at_time": 209
+      },
+      "payload": {
+        "order_id": "order #9751",
+        "customer_id": "CUST-0030",
+        "sku": "sku.elec.2",
+        "order_date": "2026-03-20T08:09:43.995589+00:00",
+        "quantity": 10,
+        "expected_ship_date": "2026-03-23T08:09:43.995589+00:00"
+      }
+    },
+    {
+      "scenario": "normal",
+      "expected_risks": [],
+      "context": {
+        "stock_at_time_of_order": 212,
+        "pending_units_at_time": 0,
+        "effective_stock_at_time": 212
+      },
+      "payload": {
+        "order_id": "ORDER-10052",
+        "customer_id": "CUST-0014",
+        "sku": " SKU-APPL-201 ",
+        "order_date": "2026-03-20T08:09:43.994450+00:00",
+        "quantity": 18,
+        "expected_ship_date": "2026-03-23T08:09:43.994450+00:00"
+      }
+    },
+    {
+      "scenario": "dirty_data",
+      "expected_risks": [],
+      "context": {
+        "stock_at_time_of_order": 393,
+        "pending_units_at_time": 71,
+        "effective_stock_at_time": 322
+      },
+      "payload": {
+        "order_id": "order #7371",
+        "customer_id": "CUST-0032",
+        "sku": "sku.furn.3",
+        "order_date": "2026-03-20T08:09:43.995575+00:00",
+        "quantity": 11,
+        "expected_ship_date": "2026-03-23T08:09:43.995575+00:00"
+      }
+    },
+    {
+      "scenario": "shipment_delay",
+      "expected_risks": [
+        "shipment_delay",
+        "sla_violation"
+      ],
+      "context": {
+        "stock_at_time_of_order": 339,
+        "pending_units_at_time": 220,
+        "effective_stock_at_time": 119
+      },
+      "payload": {
+        "order_id": "ORDER-10237",
+        "customer_id": "CUST-0019",
+        "sku": "sku-furn-101",
+        "order_date": "2026-03-20T08:09:43.994988+00:00",
+        "quantity": 15,
+        "expected_ship_date": "2026-03-17T08:09:43.994988+00:00"
+      }
+    },
+    {
+      "scenario": "shipment_delay",
+      "expected_risks": [
+        "shipment_delay",
+        "sla_violation"
+      ],
+      "context": {
+        "stock_at_time_of_order": 378,
+        "pending_units_at_time": 148,
+        "effective_stock_at_time": 230
+      },
+      "payload": {
+        "order_id": "ORD-10233",
+        "customer_id": "CUST-0001",
+        "sku": "SKUFOOD-402",
+        "order_date": "2026-03-20T08:09:43.994960+00:00",
+        "quantity": 40,
+        "expected_ship_date": "2026-03-19T08:09:43.994960+00:00"
+      }
+    },
+    {
+      "scenario": "high_risk",
+      "expected_risks": [
+        "inventory_shortage",
+        "sla_violation",
+        "shipment_delay"
+      ],
+      "context": {
+        "stock_at_time_of_order": 37,
+        "pending_units_at_time": 71,
+        "effective_stock_at_time": 0
+      },
+      "payload": {
+        "order_id": "ord_10369",
+        "customer_id": "CUST-0029",
+        "sku": " SKU-APPL-202 ",
+        "order_date": "2026-03-20T08:09:43.995314+00:00",
+        "quantity": 203,
+        "expected_ship_date": "2026-03-20T10:09:43.995314+00:00"
+      }
+    },
+    {
+      "scenario": "dirty_data",
+      "expected_risks": [],
+      "context": {
+        "stock_at_time_of_order": 178,
+        "pending_units_at_time": 65,
+        "effective_stock_at_time": 113
+      },
+      "payload": {
+        "order_id": "order #8564",
+        "customer_id": "CUST-0028",
+        "sku": "sku.elec.1",
+        "order_date": "2026-03-20T08:09:43.995603+00:00",
+        "quantity": 5,
+        "expected_ship_date": "2026-03-23T08:09:43.995603+00:00"
+      }
+    },
+    {
+      "scenario": "normal",
+      "expected_risks": [],
+      "context": {
+        "stock_at_time_of_order": 339,
+        "pending_units_at_time": 131,
+        "effective_stock_at_time": 208
+      },
+      "payload": {
+        "order_id": " ORD-10070 ",
+        "customer_id": "CUST-0032",
+        "sku": "SKUFURN-101",
+        "order_date": "2026-03-20T08:09:43.994499+00:00",
+        "quantity": 42,
+        "expected_ship_date": "2026-03-26T08:09:43.994499+00:00"
+      }
+    },
+    {
+      "scenario": "inventory_shortage",
+      "expected_risks": [
+        "inventory_shortage"
+      ],
+      "context": {
+        "stock_at_time_of_order": 41,
+        "pending_units_at_time": 65,
+        "effective_stock_at_time": 0
+      },
+      "payload": {
+        "order_id": "ORD-10195",
+        "customer_id": "CUST-0011",
+        "sku": "SKUAPPL-202",
+        "order_date": "2026-03-20T08:09:43.994831+00:00",
+        "quantity": 79,
+        "expected_ship_date": "2026-03-25T08:09:43.994831+00:00"
+      }
+    },
+    {
+      "scenario": "normal",
+      "expected_risks": [],
+      "context": {
+        "stock_at_time_of_order": 207,
+        "pending_units_at_time": 18,
+        "effective_stock_at_time": 189
+      },
+      "payload": {
+        "order_id": "ord-10099",
+        "customer_id": "CUST-0030",
+        "sku": "SKU-APPL-202",
+        "order_date": "2026-03-20T08:09:43.994582+00:00",
+        "quantity": 47,
+        "expected_ship_date": "2026-03-25T08:09:43.994582+00:00"
+      }
+    },
+    {
+      "scenario": "post_restock",
+      "expected_risks": [],
+      "context": {
+        "stock_at_time_of_order": 185,
+        "pending_units_at_time": 57,
+        "effective_stock_at_time": 343
+      },
+      "payload": {
+        "order_id": "ord-10424",
+        "customer_id": "CUST-0048",
+        "sku": "SKUAPPL-203",
+        "order_date": "2026-03-20T08:09:43.995459+00:00",
+        "quantity": 34,
+        "expected_ship_date": "2026-03-23T08:09:43.995459+00:00"
+      }
+    },
+    {
+      "scenario": "competing_orders",
+      "expected_risks": [
+        "inventory_shortage"
+      ],
+      "context": {
+        "stock_at_time_of_order": 23,
+        "pending_units_at_time": 71,
+        "effective_stock_at_time": 0
+      },
+      "payload": {
+        "order_id": "ORD-10382",
+        "customer_id": "CUST-0003",
+        "sku": "sku-appl-202",
+        "order_date": "2026-03-20T08:09:43.995360+00:00",
+        "quantity": 20,
+        "expected_ship_date": "2026-03-23T08:09:43.995360+00:00"
+      }
+    },
+    {
+      "scenario": "normal",
+      "expected_risks": [],
+      "context": {
+        "stock_at_time_of_order": 378,
+        "pending_units_at_time": 69,
+        "effective_stock_at_time": 309
+      },
+      "payload": {
+        "order_id": "ord-10108",
+        "customer_id": "CUST-0033",
+        "sku": "SKU-FOOD-402",
+        "order_date": "2026-03-20T08:09:43.994593+00:00",
+        "quantity": 39,
+        "expected_ship_date": "2026-03-27T08:09:43.994593+00:00"
+      }
+    },
+    {
+      "scenario": "shipment_delay",
+      "expected_risks": [
+        "shipment_delay",
+        "sla_violation"
+      ],
+      "context": {
+        "stock_at_time_of_order": 30,
+        "pending_units_at_time": 65,
+        "effective_stock_at_time": 0
+      },
+      "payload": {
+        "order_id": "ord-10227",
+        "customer_id": "CUST-0043",
+        "sku": " SKU-APPL-202 ",
+        "order_date": "2026-03-20T08:09:43.994946+00:00",
+        "quantity": 1,
+        "expected_ship_date": "2026-03-16T08:09:43.994946+00:00"
+      }
+    },
+    {
+      "scenario": "normal",
+      "expected_risks": [],
+      "context": {
+        "stock_at_time_of_order": 339,
+        "pending_units_at_time": 179,
+        "effective_stock_at_time": 160
+      },
+      "payload": {
+        "order_id": "10166",
+        "customer_id": "CUST-0009",
+        "sku": " SKU-FURN-101 ",
+        "order_date": "2026-03-20T08:09:43.994724+00:00",
+        "quantity": 37,
+        "expected_ship_date": "2026-03-27T08:09:43.994724+00:00"
+      }
+    },
+    {
+      "scenario": "sla_breach",
+      "expected_risks": [
+        "sla_violation",
+        "shipment_delay"
+      ],
+      "context": {
+        "stock_at_time_of_order": 212,
+        "pending_units_at_time": 37,
+        "effective_stock_at_time": 175
+      },
+      "payload": {
+        "order_id": "ord-10285",
+        "customer_id": "CUST-0044",
+        "sku": "sku-appl-201",
+        "order_date": "2026-03-20T08:09:43.995096+00:00",
+        "quantity": 1,
+        "expected_ship_date": "2026-03-20T10:09:43.995096+00:00"
+      }
+    },
+    {
+      "scenario": "normal",
+      "expected_risks": [],
+      "context": {
+        "stock_at_time_of_order": 378,
+        "pending_units_at_time": 108,
+        "effective_stock_at_time": 270
+      },
+      "payload": {
+        "order_id": " ORD-10144 ",
+        "customer_id": "CUST-0045",
+        "sku": "sku-food-402",
+        "order_date": "2026-03-20T08:09:43.994664+00:00",
+        "quantity": 40,
+        "expected_ship_date": "2026-03-26T08:09:43.994664+00:00"
+      }
+    },
+    {
+      "scenario": "high_risk",
+      "expected_risks": [
+        "inventory_shortage",
+        "sla_violation",
+        "shipment_delay"
+      ],
+      "context": {
+        "stock_at_time_of_order": 28,
+        "pending_units_at_time": 71,
+        "effective_stock_at_time": 0
+      },
+      "payload": {
+        "order_id": " ORD-10356 ",
+        "customer_id": "CUST-0025",
+        "sku": " SKU-APPL-202 ",
+        "order_date": "2026-03-20T08:09:43.995282+00:00",
+        "quantity": 216,
+        "expected_ship_date": "2026-03-20T10:09:43.995282+00:00"
+      }
+    },
+    {
+      "scenario": "normal",
+      "expected_risks": [],
+      "context": {
+        "stock_at_time_of_order": 220,
+        "pending_units_at_time": 0,
+        "effective_stock_at_time": 220
+      },
+      "payload": {
+        "order_id": "ord-10073",
+        "customer_id": "CUST-0016",
+        "sku": " SKU-FURN-102 ",
+        "order_date": "2026-03-20T08:09:43.994511+00:00",
+        "quantity": 36,
+        "expected_ship_date": "2026-03-27T08:09:43.994511+00:00"
+      }
+    },
+    {
+      "scenario": "post_restock",
+      "expected_risks": [],
+      "context": {
+        "stock_at_time_of_order": 323,
+        "pending_units_at_time": 95,
+        "effective_stock_at_time": 452
+      },
+      "payload": {
+        "order_id": "ORDER-10428",
+        "customer_id": "CUST-0050",
+        "sku": "SKU_CLTH_303",
+        "order_date": "2026-03-20T08:09:43.995474+00:00",
+        "quantity": 81,
+        "expected_ship_date": "2026-03-23T08:09:43.995474+00:00"
+      }
+    },
+    {
+      "scenario": "sla_breach",
+      "expected_risks": [
+        "sla_violation",
+        "shipment_delay"
+      ],
+      "context": {
+        "stock_at_time_of_order": 30,
+        "pending_units_at_time": 66,
+        "effective_stock_at_time": 0
+      },
+      "payload": {
+        "order_id": "10294",
+        "customer_id": "CUST-0048",
+        "sku": "sku-appl-202",
+        "order_date": "2026-03-20T08:09:43.995111+00:00",
+        "quantity": 2,
+        "expected_ship_date": "2026-03-20T09:09:43.995111+00:00"
+      }
+    },
+    {
+      "scenario": "normal",
+      "expected_risks": [],
+      "context": {
+        "stock_at_time_of_order": 156,
+        "pending_units_at_time": 0,
+        "effective_stock_at_time": 156
+      },
+      "payload": {
+        "order_id": "10082",
+        "customer_id": "CUST-0032",
+        "sku": "SKU-ELEC-003",
+        "order_date": "2026-03-20T08:09:43.994534+00:00",
+        "quantity": 4,
+        "expected_ship_date": "2026-03-23T08:09:43.994534+00:00"
+      }
+    },
+    {
+      "scenario": "normal",
+      "expected_risks": [],
+      "context": {
+        "stock_at_time_of_order": 313,
+        "pending_units_at_time": 9,
+        "effective_stock_at_time": 304
+      },
+      "payload": {
+        "order_id": "ORD-10156",
+        "customer_id": "CUST-0046",
+        "sku": " SKU-ELEC-001 ",
+        "order_date": "2026-03-20T08:09:43.994701+00:00",
+        "quantity": 8,
+        "expected_ship_date": "2026-03-24T08:09:43.994701+00:00"
+      }
+    },
+    {
+      "scenario": "normal",
+      "expected_risks": [],
+      "context": {
+        "stock_at_time_of_order": 323,
+        "pending_units_at_time": 51,
+        "effective_stock_at_time": 272
+      },
+      "payload": {
+        "order_id": "10094",
+        "customer_id": "CUST-0049",
+        "sku": "sku_CLTH-303",
+        "order_date": "2026-03-20T08:09:43.994568+00:00",
+        "quantity": 44,
+        "expected_ship_date": "2026-03-23T08:09:43.994568+00:00"
+      }
+    },
+    {
+      "scenario": "competing_orders",
+      "expected_risks": [
+        "inventory_shortage"
+      ],
+      "context": {
+        "stock_at_time_of_order": 23,
+        "pending_units_at_time": 71,
+        "effective_stock_at_time": 0
+      },
+      "payload": {
+        "order_id": "ord_10391",
+        "customer_id": "CUST-0016",
+        "sku": "sku-appl-202",
+        "order_date": "2026-03-20T08:09:43.995387+00:00",
+        "quantity": 25,
+        "expected_ship_date": "2026-03-23T08:09:43.995387+00:00"
+      }
+    },
+    {
+      "scenario": "normal",
+      "expected_risks": [],
+      "context": {
+        "stock_at_time_of_order": 207,
+        "pending_units_at_time": 0,
+        "effective_stock_at_time": 207
+      },
+      "payload": {
+        "order_id": "ord-10022",
+        "customer_id": "CUST-0029",
+        "sku": "SKU_APPL_202",
+        "order_date": "2026-03-20T08:09:43.994353+00:00",
+        "quantity": 18,
+        "expected_ship_date": "2026-03-23T08:09:43.994353+00:00"
+      }
+    },
+    {
+      "scenario": "normal",
+      "expected_risks": [],
+      "context": {
+        "stock_at_time_of_order": 178,
+        "pending_units_at_time": 49,
+        "effective_stock_at_time": 129
+      },
+      "payload": {
+        "order_id": "10126",
+        "customer_id": "CUST-0050",
+        "sku": "sku-elec-002",
+        "order_date": "2026-03-20T08:09:43.994640+00:00",
+        "quantity": 9,
+        "expected_ship_date": "2026-03-26T08:09:43.994640+00:00"
+      }
+    },
+    {
+      "scenario": "normal",
+      "expected_risks": [],
+      "context": {
+        "stock_at_time_of_order": 313,
+        "pending_units_at_time": 17,
+        "effective_stock_at_time": 296
+      },
+      "payload": {
+        "order_id": "ORDER-10158",
+        "customer_id": "CUST-0005",
+        "sku": "SKU_ELEC_001",
+        "order_date": "2026-03-20T08:09:43.994712+00:00",
+        "quantity": 31,
+        "expected_ship_date": "2026-03-25T08:09:43.994712+00:00"
+      }
+    },
+    {
+      "scenario": "normal",
+      "expected_risks": [],
+      "context": {
+        "stock_at_time_of_order": 339,
+        "pending_units_at_time": 0,
+        "effective_stock_at_time": 339
+      },
+      "payload": {
+        "order_id": "ord_10025",
+        "customer_id": "CUST-0022",
+        "sku": "sku_FOOD-401",
+        "order_date": "2026-03-20T08:09:43.994371+00:00",
+        "quantity": 20,
+        "expected_ship_date": "2026-03-24T08:09:43.994371+00:00"
+      }
+    },
+    {
+      "scenario": "normal",
+      "expected_risks": [],
+      "context": {
+        "stock_at_time_of_order": 378,
+        "pending_units_at_time": 0,
+        "effective_stock_at_time": 378
+      },
+      "payload": {
+        "order_id": "ORD-10036",
+        "customer_id": "CUST-0047",
+        "sku": "SKUFOOD-402",
+        "order_date": "2026-03-20T08:09:43.994398+00:00",
+        "quantity": 69,
+        "expected_ship_date": "2026-03-23T08:09:43.994398+00:00"
+      }
+    },
+    {
+      "scenario": "post_restock",
+      "expected_risks": [],
+      "context": {
+        "stock_at_time_of_order": 378,
+        "pending_units_at_time": 193,
+        "effective_stock_at_time": 414
+      },
+      "payload": {
+        "order_id": "ord_10415",
+        "customer_id": "CUST-0040",
+        "sku": " SKU-FOOD-402 ",
+        "order_date": "2026-03-20T08:09:43.995443+00:00",
+        "quantity": 55,
+        "expected_ship_date": "2026-03-23T08:09:43.995443+00:00"
+      }
+    },
+    {
+      "scenario": "normal",
+      "expected_risks": [],
+      "context": {
+        "stock_at_time_of_order": 339,
+        "pending_units_at_time": 72,
+        "effective_stock_at_time": 267
+      },
+      "payload": {
+        "order_id": "ORD-10049",
+        "customer_id": "CUST-0025",
+        "sku": "sku_FURN-101",
+        "order_date": "2026-03-20T08:09:43.994438+00:00",
+        "quantity": 59,
+        "expected_ship_date": "2026-03-25T08:09:43.994438+00:00"
+      }
+    }
+  ],
+  "inventory": [
+    {
+      "scenario": "normal",
+      "payload": {
+        "sku": "SKU_ELEC_001",
+        "warehouse_id": "WH-WEST-02",
+        "stock_level": 313,
+        "reorder_threshold": 51,
+        "supplier_eta": null
+      }
+    },
+    {
+      "scenario": "normal",
+      "payload": {
+        "sku": " SKU-ELEC-002 ",
+        "warehouse_id": "WH-SOUTH-04",
+        "stock_level": 178,
+        "reorder_threshold": 50,
+        "supplier_eta": null
+      }
+    },
+    {
+      "scenario": "normal",
+      "payload": {
+        "sku": "SKU-ELEC-003",
+        "warehouse_id": "WH-EAST-01",
+        "stock_level": 156,
+        "reorder_threshold": 48,
+        "supplier_eta": null
+      }
+    },
+    {
+      "scenario": "normal",
+      "payload": {
+        "sku": "sku-furn-101",
+        "warehouse_id": "WH-SOUTH-04",
+        "stock_level": 339,
+        "reorder_threshold": 38,
+        "supplier_eta": null
+      }
+    },
+    {
+      "scenario": "normal",
+      "payload": {
+        "sku": "sku_FURN-102",
+        "warehouse_id": "WH-CENTRAL-03",
+        "stock_level": 393,
+        "reorder_threshold": 35,
+        "supplier_eta": null
+      }
+    },
+    {
+      "scenario": "normal",
+      "payload": {
+        "sku": "SKU_APPL_201",
+        "warehouse_id": "WH-CENTRAL-03",
+        "stock_level": 347,
+        "reorder_threshold": 50,
+        "supplier_eta": null
+      }
+    },
+    {
+      "scenario": "low_stock",
+      "payload": {
+        "sku": "sku_APPL-202",
+        "warehouse_id": "WH-SOUTH-04",
+        "stock_level": 23,
+        "reorder_threshold": 47,
+        "supplier_eta": "2026-03-28T08:09:43.995684+00:00"
+      }
+    },
+    {
+      "scenario": "normal",
+      "payload": {
+        "sku": "sku_APPL-203",
+        "warehouse_id": "WH-CENTRAL-03",
+        "stock_level": 400,
+        "reorder_threshold": 37,
+        "supplier_eta": null
+      }
+    },
+    {
+      "scenario": "normal",
+      "payload": {
+        "sku": "SKU-CLTH-301",
+        "warehouse_id": "WH-WEST-02",
+        "stock_level": 338,
+        "reorder_threshold": 34,
+        "supplier_eta": null
+      }
+    },
+    {
+      "scenario": "normal",
+      "payload": {
+        "sku": "SKU-CLTH-302",
+        "warehouse_id": "WH-WEST-02",
+        "stock_level": 176,
+        "reorder_threshold": 40,
+        "supplier_eta": null
+      }
+    },
+    {
+      "scenario": "normal",
+      "payload": {
+        "sku": "sku-clth-303",
+        "warehouse_id": "WH-SOUTH-04",
+        "stock_level": 547,
+        "reorder_threshold": 32,
+        "supplier_eta": null
+      }
+    },
+    {
+      "scenario": "normal",
+      "payload": {
+        "sku": " SKU-FOOD-401 ",
+        "warehouse_id": "WH-CENTRAL-03",
+        "stock_level": 339,
+        "reorder_threshold": 37,
+        "supplier_eta": null
+      }
+    },
+    {
+      "scenario": "normal",
+      "payload": {
+        "sku": "sku-food-402",
+        "warehouse_id": "WH-CENTRAL-03",
+        "stock_level": 607,
+        "reorder_threshold": 26,
+        "supplier_eta": null
+      }
+    }
+  ],
+  "shipments": [
+    {
+      "scenario": "inventory_shortage",
+      "payload": {
+        "shipment_id": "SHP-288158",
+        "order_id": "ord-10222",
+        "carrier": "DHL",
+        "status": "processing",
+        "eta": "2026-03-23T21:09:43.994930+00:00"
+      }
+    },
+    {
+      "scenario": "sla_breach",
+      "payload": {
+        "shipment_id": "SHP-387636",
+        "order_id": "ORDER-10315",
+        "carrier": "UPS",
+        "status": "processing",
+        "eta": "2026-03-24T08:09:43.995747+00:00"
+      }
+    },
+    {
+      "scenario": "inventory_shortage",
+      "payload": {
+        "shipment_id": "SHP-406327",
+        "order_id": " ORD-10182 ",
+        "carrier": "FedEx",
+        "status": "processing",
+        "eta": "2026-03-23T09:09:43.994764+00:00"
+      }
+    },
+    {
+      "scenario": "post_restock",
+      "payload": {
+        "shipment_id": "SHP-207570",
+        "order_id": "ORDER-10437",
+        "carrier": "UPS",
+        "status": "in_transit",
+        "eta": "2026-03-21T13:09:43.995500+00:00"
+      }
+    },
+    {
+      "scenario": "inventory_shortage",
+      "payload": {
+        "shipment_id": "SHP-592198",
+        "order_id": "ord_10215",
+        "carrier": "USPS",
+        "status": "in_transit",
+        "eta": "2026-03-24T02:09:43.994902+00:00"
+      }
+    },
+    {
+      "scenario": "normal",
+      "payload": {
+        "shipment_id": "SHP-293319",
+        "order_id": "10013",
+        "carrier": "UPS",
+        "status": "picked",
+        "eta": "2026-03-22T23:09:43.994320+00:00"
+      }
+    },
+    {
+      "scenario": "normal",
+      "payload": {
+        "shipment_id": "SHP-219629",
+        "order_id": "10150",
+        "carrier": "UPS",
+        "status": "picked",
+        "eta": "2026-03-22T14:09:43.994675+00:00"
+      }
+    },
+    {
+      "scenario": "shipment_delay",
+      "payload": {
+        "shipment_id": "SHP-177680",
+        "order_id": "ord_10284",
+        "carrier": "UPS",
+        "status": "picked",
+        "eta": "2026-03-22T08:09:43.995085+00:00"
+      }
+    },
+    {
+      "scenario": "shipment_delay",
+      "payload": {
+        "shipment_id": "SHP-950544",
+        "order_id": " ORD-10246 ",
+        "carrier": "DHL",
+        "status": "processing",
+        "eta": "2026-03-21T08:09:43.994999+00:00"
+      }
+    },
+    {
+      "scenario": "high_risk",
+      "payload": {
+        "shipment_id": "SHP-224205",
+        "order_id": "ORDER-10352",
+        "carrier": "USPS",
+        "status": "processing",
+        "eta": "2026-03-23T09:09:43.995267+00:00"
+      }
+    },
+    {
+      "scenario": "dirty_data",
+      "payload": {
+        "shipment_id": "SHP-913373",
+        "order_id": "order #1096",
+        "carrier": "USPS",
+        "status": "in_transit",
+        "eta": "2026-03-22T06:09:43.995545+00:00"
+      }
+    },
+    {
+      "scenario": "shipment_delay",
+      "payload": {
+        "shipment_id": "SHP-411797",
+        "order_id": "ord-10256",
+        "carrier": "USPS",
+        "status": "picked",
+        "eta": "2026-03-22T08:09:43.995023+00:00"
+      }
+    },
+    {
+      "scenario": "shipment_delay",
+      "payload": {
+        "shipment_id": "SHP-739244",
+        "order_id": "ORD-10251",
+        "carrier": "UPS",
+        "status": "picked",
+        "eta": "2026-03-19T08:09:43.995011+00:00"
+      }
+    },
+    {
+      "scenario": "duplicate",
+      "payload": {
+        "shipment_id": "SHP-377501",
+        "order_id": "ORD-99999",
+        "carrier": "UPS",
+        "status": "processing",
+        "eta": "2026-03-22T07:09:43.995629+00:00"
+      }
+    },
+    {
+      "scenario": "normal",
+      "payload": {
+        "shipment_id": "SHP-282256",
+        "order_id": "ORD-10118",
+        "carrier": "UPS",
+        "status": "processing",
+        "eta": "2026-03-22T05:09:43.994628+00:00"
+      }
+    },
+    {
+      "scenario": "dirty_data",
+      "payload": {
+        "shipment_id": "SHP-528361",
+        "order_id": "order #6529",
+        "carrier": "USPS",
+        "status": "processing",
+        "eta": "2026-03-22T20:09:43.995616+00:00"
+      }
+    },
+    {
+      "scenario": "post_restock",
+      "payload": {
+        "shipment_id": "SHP-405407",
+        "order_id": "ord_10432",
+        "carrier": "UPS",
+        "status": "in_transit",
+        "eta": "2026-03-21T14:09:43.995488+00:00"
+      }
+    },
+    {
+      "scenario": "sla_breach",
+      "payload": {
+        "shipment_id": "SHP-841296",
+        "order_id": "ord-10309",
+        "carrier": "DHL",
+        "status": "processing",
+        "eta": "2026-03-25T08:09:43.995870+00:00"
+      }
+    },
+    {
+      "scenario": "shipment_delay",
+      "payload": {
+        "shipment_id": "SHP-174637",
+        "order_id": "ord-10235",
+        "carrier": "FedEx",
+        "status": "in_transit",
+        "eta": "2026-03-22T08:09:43.994974+00:00"
+      }
+    },
+    {
+      "scenario": "normal",
+      "payload": {
+        "shipment_id": "SHP-545790",
+        "order_id": " ORD-10055 ",
+        "carrier": "UPS",
+        "status": "picked",
+        "eta": "2026-03-25T08:09:43.994464+00:00"
+      }
+    },
+    {
+      "scenario": "normal",
+      "payload": {
+        "shipment_id": "SHP-779094",
+        "order_id": "ORDER-10064",
+        "carrier": "FedEx",
+        "status": "in_transit",
+        "eta": "2026-03-23T06:09:43.994486+00:00"
+      }
+    },
+    {
+      "scenario": "dirty_data",
+      "payload": {
+        "shipment_id": "SHP-174878",
+        "order_id": "order #4388",
+        "carrier": "UPS",
+        "status": "picked",
+        "eta": "2026-03-22T11:09:43.995530+00:00"
+      }
+    },
+    {
+      "scenario": "normal",
+      "payload": {
+        "shipment_id": "SHP-723948",
+        "order_id": "ord_10092",
+        "carrier": "DHL",
+        "status": "processing",
+        "eta": "2026-03-22T01:09:43.994557+00:00"
+      }
+    },
+    {
+      "scenario": "high_risk",
+      "payload": {
+        "shipment_id": "SHP-591465",
+        "order_id": "ord_10338",
+        "carrier": "DHL",
+        "status": "picked",
+        "eta": "2026-03-22T11:09:43.995221+00:00"
+      }
+    },
+    {
+      "scenario": "sla_breach",
+      "payload": {
+        "shipment_id": "SHP-385470",
+        "order_id": "ORD-10297",
+        "carrier": "USPS",
+        "status": "in_transit",
+        "eta": "2026-03-26T08:09:43.995917+00:00"
+      }
+    },
+    {
+      "scenario": "competing_orders",
+      "payload": {
+        "shipment_id": "SHP-727086",
+        "order_id": "ord-10378",
+        "carrier": "UPS",
+        "status": "picked",
+        "eta": "2026-03-22T15:09:43.995343+00:00"
+      }
+    },
+    {
+      "scenario": "duplicate",
+      "payload": {
+        "shipment_id": "SHP-733039",
+        "order_id": "ORD-99999",
+        "carrier": "DHL",
+        "status": "picked",
+        "eta": "2026-03-22T00:09:43.995641+00:00"
+      }
+    },
+    {
+      "scenario": "competing_orders",
+      "payload": {
+        "shipment_id": "SHP-340044",
+        "order_id": "ORD-10401",
+        "carrier": "UPS",
+        "status": "processing",
+        "eta": "2026-03-22T15:09:43.995414+00:00"
+      }
+    },
+    {
+      "scenario": "high_risk",
+      "payload": {
+        "shipment_id": "SHP-704238",
+        "order_id": "10347",
+        "carrier": "UPS",
+        "status": "in_transit",
+        "eta": "2026-03-24T11:09:43.995252+00:00"
+      }
+    },
+    {
+      "scenario": "normal",
+      "payload": {
+        "shipment_id": "SHP-644173",
+        "order_id": "ORD-10047",
+        "carrier": "USPS",
+        "status": "processing",
+        "eta": "2026-03-23T14:09:43.994422+00:00"
+      }
+    },
+    {
+      "scenario": "sla_breach",
+      "payload": {
+        "shipment_id": "SHP-713762",
+        "order_id": " ORD-10313 ",
+        "carrier": "USPS",
+        "status": "picked",
+        "eta": "2026-03-24T08:09:43.995956+00:00"
+      }
+    },
+    {
+      "scenario": "competing_orders",
+      "payload": {
+        "shipment_id": "SHP-195674",
+        "order_id": "ORDER-10372",
+        "carrier": "USPS",
+        "status": "in_transit",
+        "eta": "2026-03-21T13:09:43.995329+00:00"
+      }
+    },
+    {
+      "scenario": "inventory_shortage",
+      "payload": {
+        "shipment_id": "SHP-449499",
+        "order_id": "ord_10190",
+        "carrier": "DHL",
+        "status": "picked",
+        "eta": "2026-03-23T18:09:43.994800+00:00"
+      }
+    },
+    {
+      "scenario": "inventory_shortage",
+      "payload": {
+        "shipment_id": "SHP-999398",
+        "order_id": "ORD-10213",
+        "carrier": "FedEx",
+        "status": "in_transit",
+        "eta": "2026-03-24T14:09:43.994888+00:00"
+      }
+    },
+    {
+      "scenario": "shipment_delay",
+      "payload": {
+        "shipment_id": "SHP-827369",
+        "order_id": "ORD-10270",
+        "carrier": "USPS",
+        "status": "picked",
+        "eta": "2026-03-22T08:09:43.995048+00:00"
+      }
+    },
+    {
+      "scenario": "dirty_data",
+      "payload": {
+        "shipment_id": "SHP-953085",
+        "order_id": "order #4505",
+        "carrier": "UPS",
+        "status": "picked",
+        "eta": "2026-03-21T19:09:43.995512+00:00"
+      }
+    },
+    {
+      "scenario": "shipment_delay",
+      "payload": {
+        "shipment_id": "SHP-429795",
+        "order_id": " ORD-10275 ",
+        "carrier": "DHL",
+        "status": "picked",
+        "eta": "2026-03-19T08:09:43.995073+00:00"
+      }
+    },
+    {
+      "scenario": "normal",
+      "payload": {
+        "shipment_id": "SHP-910075",
+        "order_id": "ord-10085",
+        "carrier": "USPS",
+        "status": "picked",
+        "eta": "2026-03-25T13:09:43.994546+00:00"
+      }
+    },
+    {
+      "scenario": "normal",
+      "payload": {
+        "shipment_id": "SHP-789606",
+        "order_id": "ord_10174",
+        "carrier": "USPS",
+        "status": "in_transit",
+        "eta": "2026-03-22T20:09:43.994737+00:00"
+      }
+    },
+    {
+      "scenario": "normal",
+      "payload": {
+        "shipment_id": "SHP-296694",
+        "order_id": " ORD-10060 ",
+        "carrier": "DHL",
+        "status": "picked",
+        "eta": "2026-03-22T17:09:43.994475+00:00"
+      }
+    },
+    {
+      "scenario": "inventory_shortage",
+      "payload": {
+        "shipment_id": "SHP-755788",
+        "order_id": "ord_10216",
+        "carrier": "USPS",
+        "status": "in_transit",
+        "eta": "2026-03-23T13:09:43.994916+00:00"
+      }
+    },
+    {
+      "scenario": "high_risk",
+      "payload": {
+        "shipment_id": "SHP-380028",
+        "order_id": "ORD-10329",
+        "carrier": "FedEx",
+        "status": "processing",
+        "eta": "2026-03-23T10:09:43.995204+00:00"
+      }
+    },
+    {
+      "scenario": "normal",
+      "payload": {
+        "shipment_id": "SHP-832168",
+        "order_id": "ORD-10152",
+        "carrier": "USPS",
+        "status": "picked",
+        "eta": "2026-03-25T16:09:43.994689+00:00"
+      }
+    },
+    {
+      "scenario": "inventory_shortage",
+      "payload": {
+        "shipment_id": "SHP-760626",
+        "order_id": "ORDER-10200",
+        "carrier": "FedEx",
+        "status": "processing",
+        "eta": "2026-03-24T19:09:43.994846+00:00"
+      }
+    },
+    {
+      "scenario": "shipment_delay",
+      "payload": {
+        "shipment_id": "SHP-425845",
+        "order_id": "ORDER-10265",
+        "carrier": "UPS",
+        "status": "in_transit",
+        "eta": "2026-03-19T08:09:43.995036+00:00"
+      }
+    },
+    {
+      "scenario": "shipment_delay",
+      "payload": {
+        "shipment_id": "SHP-197736",
+        "order_id": "ord_10273",
+        "carrier": "FedEx",
+        "status": "in_transit",
+        "eta": "2026-03-24T08:09:43.995061+00:00"
+      }
+    },
+    {
+      "scenario": "normal",
+      "payload": {
+        "shipment_id": "SHP-223172",
+        "order_id": "10043",
+        "carrier": "FedEx",
+        "status": "processing",
+        "eta": "2026-03-25T15:09:43.994410+00:00"
+      }
+    },
+    {
+      "scenario": "sla_breach",
+      "payload": {
+        "shipment_id": "SHP-633590",
+        "order_id": "ORD-10324",
+        "carrier": "DHL",
+        "status": "picked",
+        "eta": "2026-03-25T08:09:43.996086+00:00"
+      }
+    },
+    {
+      "scenario": "normal",
+      "payload": {
+        "shipment_id": "SHP-595158",
+        "order_id": "ORDER-10135",
+        "carrier": "FedEx",
+        "status": "picked",
+        "eta": "2026-03-22T14:09:43.994651+00:00"
+      }
+    },
+    {
+      "scenario": "normal",
+      "payload": {
+        "shipment_id": "SHP-251668",
+        "order_id": "10009",
+        "carrier": "USPS",
+        "status": "picked",
+        "eta": "2026-03-21T09:09:43.993886+00:00"
+      }
+    },
+    {
+      "scenario": "competing_orders",
+      "payload": {
+        "shipment_id": "SHP-882544",
+        "order_id": "ord_10384",
+        "carrier": "FedEx",
+        "status": "processing",
+        "eta": "2026-03-21T12:09:43.995374+00:00"
+      }
+    },
+    {
+      "scenario": "inventory_shortage",
+      "payload": {
+        "shipment_id": "SHP-910208",
+        "order_id": "ORDER-10203",
+        "carrier": "USPS",
+        "status": "processing",
+        "eta": "2026-03-24T03:09:43.994860+00:00"
+      }
+    },
+    {
+      "scenario": "competing_orders",
+      "payload": {
+        "shipment_id": "SHP-380150",
+        "order_id": "ord_10392",
+        "carrier": "UPS",
+        "status": "picked",
+        "eta": "2026-03-21T12:09:43.995401+00:00"
+      }
+    },
+    {
+      "scenario": "normal",
+      "payload": {
+        "shipment_id": "SHP-978157",
+        "order_id": "ORD-10031",
+        "carrier": "USPS",
+        "status": "picked",
+        "eta": "2026-03-24T01:09:43.994385+00:00"
+      }
+    },
+    {
+      "scenario": "normal",
+      "payload": {
+        "shipment_id": "SHP-664742",
+        "order_id": "ORDER-10113",
+        "carrier": "USPS",
+        "status": "processing",
+        "eta": "2026-03-23T16:09:43.994617+00:00"
+      }
+    },
+    {
+      "scenario": "inventory_shortage",
+      "payload": {
+        "shipment_id": "SHP-678727",
+        "order_id": "ORD-10204",
+        "carrier": "USPS",
+        "status": "picked",
+        "eta": "2026-03-23T23:09:43.994874+00:00"
+      }
+    },
+    {
+      "scenario": "competing_orders",
+      "payload": {
+        "shipment_id": "SHP-297816",
+        "order_id": "ord_10409",
+        "carrier": "FedEx",
+        "status": "picked",
+        "eta": "2026-03-22T00:09:43.995429+00:00"
+      }
+    },
+    {
+      "scenario": "normal",
+      "payload": {
+        "shipment_id": "SHP-344907",
+        "order_id": "ord_10181",
+        "carrier": "USPS",
+        "status": "in_transit",
+        "eta": "2026-03-21T20:09:43.994750+00:00"
+      }
+    },
+    {
+      "scenario": "normal",
+      "payload": {
+        "shipment_id": "SHP-880879",
+        "order_id": "ORDER-10112",
+        "carrier": "USPS",
+        "status": "processing",
+        "eta": "2026-03-26T00:09:43.994605+00:00"
+      }
+    },
+    {
+      "scenario": "dirty_data",
+      "payload": {
+        "shipment_id": "SHP-504832",
+        "order_id": "order #9947",
+        "carrier": "FedEx",
+        "status": "in_transit",
+        "eta": "2026-03-21T20:09:43.995559+00:00"
+      }
+    },
+    {
+      "scenario": "sla_breach",
+      "payload": {
+        "shipment_id": "SHP-232378",
+        "order_id": "ord-10301",
+        "carrier": "DHL",
+        "status": "picked",
+        "eta": "2026-03-23T08:09:43.996175+00:00"
+      }
+    },
+    {
+      "scenario": "inventory_shortage",
+      "payload": {
+        "shipment_id": "SHP-204555",
+        "order_id": "ord-10186",
+        "carrier": "USPS",
+        "status": "processing",
+        "eta": "2026-03-23T16:09:43.994783+00:00"
+      }
+    },
+    {
+      "scenario": "high_risk",
+      "payload": {
+        "shipment_id": "SHP-529893",
+        "order_id": "10345",
+        "carrier": "FedEx",
+        "status": "processing",
+        "eta": "2026-03-23T10:09:43.995237+00:00"
+      }
+    },
+    {
+      "scenario": "normal",
+      "payload": {
+        "shipment_id": "SHP-919488",
+        "order_id": "10078",
+        "carrier": "DHL",
+        "status": "processing",
+        "eta": "2026-03-23T14:09:43.994523+00:00"
+      }
+    },
+    {
+      "scenario": "inventory_shortage",
+      "payload": {
+        "shipment_id": "SHP-781403",
+        "order_id": "ord-10191",
+        "carrier": "UPS",
+        "status": "picked",
+        "eta": "2026-03-23T19:09:43.994817+00:00"
+      }
+    },
+    {
+      "scenario": "high_risk",
+      "payload": {
+        "shipment_id": "SHP-432043",
+        "order_id": "ORDER-10363",
+        "carrier": "USPS",
+        "status": "picked",
+        "eta": "2026-03-25T11:09:43.995299+00:00"
+      }
+    },
+    {
+      "scenario": "dirty_data",
+      "payload": {
+        "shipment_id": "SHP-747453",
+        "order_id": "order #9751",
+        "carrier": "UPS",
+        "status": "in_transit",
+        "eta": "2026-03-22T18:09:43.995589+00:00"
+      }
+    },
+    {
+      "scenario": "normal",
+      "payload": {
+        "shipment_id": "SHP-338536",
+        "order_id": "ORDER-10052",
+        "carrier": "UPS",
+        "status": "processing",
+        "eta": "2026-03-22T02:09:43.994450+00:00"
+      }
+    },
+    {
+      "scenario": "dirty_data",
+      "payload": {
+        "shipment_id": "SHP-897305",
+        "order_id": "order #7371",
+        "carrier": "UPS",
+        "status": "picked",
+        "eta": "2026-03-22T14:09:43.995575+00:00"
+      }
+    },
+    {
+      "scenario": "shipment_delay",
+      "payload": {
+        "shipment_id": "SHP-827712",
+        "order_id": "ORDER-10237",
+        "carrier": "DHL",
+        "status": "picked",
+        "eta": "2026-03-20T08:09:43.994988+00:00"
+      }
+    },
+    {
+      "scenario": "shipment_delay",
+      "payload": {
+        "shipment_id": "SHP-440131",
+        "order_id": "ORD-10233",
+        "carrier": "UPS",
+        "status": "processing",
+        "eta": "2026-03-21T08:09:43.994960+00:00"
+      }
+    },
+    {
+      "scenario": "high_risk",
+      "payload": {
+        "shipment_id": "SHP-493049",
+        "order_id": "ord_10369",
+        "carrier": "USPS",
+        "status": "picked",
+        "eta": "2026-03-24T10:09:43.995314+00:00"
+      }
+    },
+    {
+      "scenario": "dirty_data",
+      "payload": {
+        "shipment_id": "SHP-656968",
+        "order_id": "order #8564",
+        "carrier": "USPS",
+        "status": "processing",
+        "eta": "2026-03-22T05:09:43.995603+00:00"
+      }
+    },
+    {
+      "scenario": "normal",
+      "payload": {
+        "shipment_id": "SHP-278240",
+        "order_id": " ORD-10070 ",
+        "carrier": "FedEx",
+        "status": "in_transit",
+        "eta": "2026-03-25T09:09:43.994499+00:00"
+      }
+    },
+    {
+      "scenario": "inventory_shortage",
+      "payload": {
+        "shipment_id": "SHP-749813",
+        "order_id": "ORD-10195",
+        "carrier": "FedEx",
+        "status": "processing",
+        "eta": "2026-03-23T20:09:43.994831+00:00"
+      }
+    },
+    {
+      "scenario": "normal",
+      "payload": {
+        "shipment_id": "SHP-343467",
+        "order_id": "ord-10099",
+        "carrier": "USPS",
+        "status": "picked",
+        "eta": "2026-03-24T11:09:43.994582+00:00"
+      }
+    },
+    {
+      "scenario": "post_restock",
+      "payload": {
+        "shipment_id": "SHP-581894",
+        "order_id": "ord-10424",
+        "carrier": "DHL",
+        "status": "in_transit",
+        "eta": "2026-03-22T04:09:43.995459+00:00"
+      }
+    },
+    {
+      "scenario": "competing_orders",
+      "payload": {
+        "shipment_id": "SHP-943718",
+        "order_id": "ORD-10382",
+        "carrier": "USPS",
+        "status": "in_transit",
+        "eta": "2026-03-22T20:09:43.995360+00:00"
+      }
+    },
+    {
+      "scenario": "normal",
+      "payload": {
+        "shipment_id": "SHP-265649",
+        "order_id": "ord-10108",
+        "carrier": "UPS",
+        "status": "picked",
+        "eta": "2026-03-25T10:09:43.994593+00:00"
+      }
+    },
+    {
+      "scenario": "shipment_delay",
+      "payload": {
+        "shipment_id": "SHP-716113",
+        "order_id": "ord-10227",
+        "carrier": "DHL",
+        "status": "picked",
+        "eta": "2026-03-20T08:09:43.994946+00:00"
+      }
+    },
+    {
+      "scenario": "normal",
+      "payload": {
+        "shipment_id": "SHP-823846",
+        "order_id": "10166",
+        "carrier": "DHL",
+        "status": "in_transit",
+        "eta": "2026-03-25T17:09:43.994724+00:00"
+      }
+    },
+    {
+      "scenario": "sla_breach",
+      "payload": {
+        "shipment_id": "SHP-308894",
+        "order_id": "ord-10285",
+        "carrier": "USPS",
+        "status": "picked",
+        "eta": "2026-03-25T08:09:43.996322+00:00"
+      }
+    },
+    {
+      "scenario": "normal",
+      "payload": {
+        "shipment_id": "SHP-348728",
+        "order_id": " ORD-10144 ",
+        "carrier": "USPS",
+        "status": "picked",
+        "eta": "2026-03-25T14:09:43.994664+00:00"
+      }
+    },
+    {
+      "scenario": "high_risk",
+      "payload": {
+        "shipment_id": "SHP-702733",
+        "order_id": " ORD-10356 ",
+        "carrier": "DHL",
+        "status": "in_transit",
+        "eta": "2026-03-24T10:09:43.995282+00:00"
+      }
+    },
+    {
+      "scenario": "normal",
+      "payload": {
+        "shipment_id": "SHP-123005",
+        "order_id": "ord-10073",
+        "carrier": "USPS",
+        "status": "in_transit",
+        "eta": "2026-03-26T02:09:43.994511+00:00"
+      }
+    },
+    {
+      "scenario": "post_restock",
+      "payload": {
+        "shipment_id": "SHP-693419",
+        "order_id": "ORDER-10428",
+        "carrier": "UPS",
+        "status": "picked",
+        "eta": "2026-03-22T20:09:43.995474+00:00"
+      }
+    },
+    {
+      "scenario": "sla_breach",
+      "payload": {
+        "shipment_id": "SHP-973294",
+        "order_id": "10294",
+        "carrier": "DHL",
+        "status": "in_transit",
+        "eta": "2026-03-26T08:09:43.996354+00:00"
+      }
+    },
+    {
+      "scenario": "normal",
+      "payload": {
+        "shipment_id": "SHP-329642",
+        "order_id": "10082",
+        "carrier": "FedEx",
+        "status": "processing",
+        "eta": "2026-03-21T22:09:43.994534+00:00"
+      }
+    },
+    {
+      "scenario": "normal",
+      "payload": {
+        "shipment_id": "SHP-810687",
+        "order_id": "ORD-10156",
+        "carrier": "FedEx",
+        "status": "in_transit",
+        "eta": "2026-03-23T04:09:43.994701+00:00"
+      }
+    },
+    {
+      "scenario": "normal",
+      "payload": {
+        "shipment_id": "SHP-757937",
+        "order_id": "10094",
+        "carrier": "UPS",
+        "status": "in_transit",
+        "eta": "2026-03-22T14:09:43.994568+00:00"
+      }
+    },
+    {
+      "scenario": "competing_orders",
+      "payload": {
+        "shipment_id": "SHP-134985",
+        "order_id": "ord_10391",
+        "carrier": "DHL",
+        "status": "picked",
+        "eta": "2026-03-21T16:09:43.995387+00:00"
+      }
+    },
+    {
+      "scenario": "normal",
+      "payload": {
+        "shipment_id": "SHP-194511",
+        "order_id": "ord-10022",
+        "carrier": "DHL",
+        "status": "in_transit",
+        "eta": "2026-03-22T12:09:43.994353+00:00"
+      }
+    },
+    {
+      "scenario": "normal",
+      "payload": {
+        "shipment_id": "SHP-284171",
+        "order_id": "10126",
+        "carrier": "FedEx",
+        "status": "picked",
+        "eta": "2026-03-24T18:09:43.994640+00:00"
+      }
+    },
+    {
+      "scenario": "normal",
+      "payload": {
+        "shipment_id": "SHP-483629",
+        "order_id": "ORDER-10158",
+        "carrier": "DHL",
+        "status": "processing",
+        "eta": "2026-03-23T10:09:43.994712+00:00"
+      }
+    },
+    {
+      "scenario": "normal",
+      "payload": {
+        "shipment_id": "SHP-964749",
+        "order_id": "ord_10025",
+        "carrier": "USPS",
+        "status": "processing",
+        "eta": "2026-03-23T04:09:43.994371+00:00"
+      }
+    },
+    {
+      "scenario": "normal",
+      "payload": {
+        "shipment_id": "SHP-943298",
+        "order_id": "ORD-10036",
+        "carrier": "UPS",
+        "status": "picked",
+        "eta": "2026-03-21T23:09:43.994398+00:00"
+      }
+    },
+    {
+      "scenario": "post_restock",
+      "payload": {
+        "shipment_id": "SHP-247594",
+        "order_id": "ord_10415",
+        "carrier": "FedEx",
+        "status": "picked",
+        "eta": "2026-03-22T16:09:43.995443+00:00"
+      }
+    },
+    {
+      "scenario": "normal",
+      "payload": {
+        "shipment_id": "SHP-986827",
+        "order_id": "ORD-10049",
+        "carrier": "DHL",
+        "status": "in_transit",
+        "eta": "2026-03-23T19:09:43.994438+00:00"
+      }
+    }
+  ]
+}
